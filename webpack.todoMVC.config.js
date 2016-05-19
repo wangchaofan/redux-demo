@@ -15,10 +15,10 @@ var pathToReactDOM = path.resolve(node_modules, 'react-dom/dist/react-dom.min.js
 var config = {
 	devtool: 'cheap-module-eval-source-map',
   entry: [
-    './index.js'
+    './todoMVC/index.js'
   ],
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'todoMVC/dist'),
     filename: 'bundle.js',
     publicPath: '/static/'
   },
