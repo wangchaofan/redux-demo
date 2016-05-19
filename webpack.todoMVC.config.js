@@ -37,6 +37,12 @@ var config = {
       test: /\.jsx?$/,
       exclude: /node_modules/,
       loaders: ['babel']
+    }, {
+        test: /\.(png|jpg|gif)$/,
+        loader: 'url?limit=25000'
+    }, {
+      test: /\.css$/,
+      loader: 'style!css!postcss'
     }],
     noParse: [pathToReact]
   }

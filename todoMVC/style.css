@@ -1,4 +1,5 @@
-.todoapp h1 {
+.todoapp {
+  h1 {
     position: absolute;
     top: -155px;
     width: 100%;
@@ -9,4 +10,5 @@
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
+  }
 }
