@@ -5,7 +5,7 @@
   "scripts": {
     "build": "webpack --colors",
     "dev": "webpack-dev-server --devtool eval --colors --hot --content-base build",
-    "todoMVC": "webpack-dev-server --devtool eval --colors --hot --inline --config webpack.todoMvc.config.js --content-base todoMVC",
+    "todoMVC": "webpack-dev-server --devtool eval --colors --hot --inline --config webpack.todoMVC.config.js --content-base todoMVC",
     "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js --content-base dist"
   },
   "repository": {

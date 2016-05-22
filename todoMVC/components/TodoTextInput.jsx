@@ -1,9 +1,6 @@
 import React from 'react';
 
-class TodoTextInput extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
+class TodoTextInput extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,13 +8,13 @@ class TodoTextInput extends Component {
     };
   }
   render() {
-    <input 
+    return (<input 
       className="new-todo"
       type="text"
       value={this.state.text}
       autoFocus="true"
       placeholder="What needs to be done"
-    />
+    />);
   };
 }
 

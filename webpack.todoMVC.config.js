@@ -1,19 +1,19 @@
 /*
 * @Author: chaofan
 * @Date:   2016-05-19 15:49:26
-* @Last Modified by:   chaofan
-* @Last Modified time: 2016-05-19 15:49:43
+* @Last Modified by:   Chaofan Wang
+* @Last Modified time: 2016-05-22 14:12:57
 */
 
 'use strict';
 var path = require('path');
 var webpack = require('webpack');
 var node_modules = path.resolve(__dirname, 'node_modules');
-var pathToReact = path.resolve(node_modules, 'react/dist/react-with-addons.min.js');
+var pathToReact = path.resolve(node_modules, 'react/dist/react.min.js');
 var pathToReactDOM = path.resolve(node_modules, 'react-dom/dist/react-dom.min.js');
 
 var config = {
-	devtool: 'cheap-module-eval-source-map',
+  devtool: 'cheap-module-eval-source-map',
   entry: [
     './todoMVC/index.js'
   ],
