@@ -8,13 +8,15 @@ class TodoTextInput extends React.Component {
     };
   }
   render() {
-    return (<input 
-      className="new-todo"
-      type="text"
-      value={this.state.text}
-      autoFocus="true"
-      placeholder="What needs to be done"
-    />);
+    return (
+      <input 
+        className="new-todo"
+        type="text"
+        value={this.state.text}
+        autoFocus="true"
+        placeholder="What needs to be done?"
+      />
+    );
   };
 }
 
